@@ -261,10 +261,26 @@
   }
 }
 
-.header-logo img {
-  width: 250px;
+.header-logo{
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 30px;
+  height: 100px;
+  width: 220px;
 }
-
+.about-logo{
+  background-color: white;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 30px;
+}
+.mobile-logo{
+  background-color: white !important;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 30px;
+}
 /* TESTIMONIAL SLIDER STİLLERİ */
 .testimonial-slider {
   padding: 40px 0 20px;
