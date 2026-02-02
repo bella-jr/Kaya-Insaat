@@ -261,26 +261,49 @@
   }
 }
 
-.header-logo{
+.header-logo {
   background-color: white;
-  padding: 15px;
+  padding: 30px;
   margin: 10px;
-  border-radius: 30px;
-  height: 100px;
-  width: 220px;
+  border-radius: 25px;
+  height: 120px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.about-logo{
+
+.header-logo img {
+  height: 100px !important;
+  width: auto !important;
+}
+
+.about-logo {
   background-color: white;
   padding: 20px;
   margin: 5px;
   border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
-.mobile-logo{
+.about-logo img {
+  height: 200px !important;
+  width: auto !important;
+}
+
+.mobile-logo {
   background-color: white !important;
   padding: 10px;
   margin: 5px;
   border-radius: 30px;
 }
+.mobile-logo img {
+  height: 140px !important;
+  width: auto !important;
+}
+
 /* TESTIMONIAL SLIDER STİLLERİ */
 .testimonial-slider {
   padding: 40px 0 20px;
