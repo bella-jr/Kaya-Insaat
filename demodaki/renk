@@ -1,2 +1,20 @@
-0a4bff ana
-0cb6ff
+  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2611">
+                                    <a href="hizmet-detay.html">Dekorasyon</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2527">
+                                    <a href="hizmet-detay.html">Konut</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2524">
+                                    <a href="hizmet-detay.html">Ticari Alan</a>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2541">
+                                    <a href="hizmet-detay.html">Projelendirme</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2526">
+                                    <a href="hizmet-detay.html">Kat Karşılığı Arsa</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2529">
+                                    <a href="hizmet-detay.html">Kentsel Dönüşüm</a>
+                                </li>
+                            </ul>
+                       
