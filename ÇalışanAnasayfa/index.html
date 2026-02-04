@@ -19,36 +19,35 @@
         /*# sourceURL=woocommerce-inline-inline-css */
     </style>
     <style>
-    .cursor-follower {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 20px;
-        height: 20px;
-        background-color: rgba(95, 189, 116, 0.5); /* Temanızın rengi */
-        border-radius: 50%;
-        pointer-events: none;
-        z-index: 9999;
-        transform: translate(-50%, -50%);
-        transition: width 0.2s, height 0.2s;
-        mix-blend-mode: difference;
-    }
+        .cursor-follower {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            background-color: rgba(95, 189, 116, 0.5);
+            /* Temanızın rengi */
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9999;
+            transform: translate(-50%, -50%);
+            transition: width 0.2s, height 0.2s;
+            mix-blend-mode: difference;
+        }
 
-    .cursor-follower.active {
-        width: 40px;
-        height: 40px;
-        background-color: rgba(95, 189, 116, 0.3);
-    }
+        .cursor-follower.active {
+            width: 40px;
+            height: 40px;
+            background-color: rgba(95, 189, 116, 0.3);
+        }
 
-    .cursor-follower.hover {
-        width: 60px;
-        height: 60px;
-        background-color: rgba(95, 189, 116, 0.2);
-    }
+        .cursor-follower.hover {
+            width: 60px;
+            height: 60px;
+            background-color: rgba(95, 189, 116, 0.2);
+        }
+    </style>
 
-    
-</style>
-    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="all">
     <link rel="stylesheet" href="assets/css/slick.css" media="all">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" media="all">
@@ -100,16 +99,15 @@
         }
     </style>
 
-    <script src="wp-includes/js/jquery/jquery.min.js"></script>
-    <script src="wp-includes/js/jquery/jquery-migrate.min.js"></script>
-    <script src="wp-includes/js/underscore.min.js"></script>
-    <script src="wp-includes/js/wp-util.min.js"></script>
+    <script src="assets/js/jquery/jquery.min.js"></script>
+    <script src="assets/js/jquery/jquery-migrate.min.js"></script>
+    <script src="assets/js/underscore.min.js"></script>
+    <script src="assets/js/wp-util.min.js"></script>
 
-    <script src="wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js" defer></script>
-    <script src="wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js" defer></script>
-    <script src="wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js" defer></script>
-    <script src="wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js" defer></script>
-
+    <script src="assets/js/jquery-blockui/jquery.blockUI.min.js" defer></script>
+    <script src="assets/js/js-cookie/js.cookie.min.js" defer></script>
+    <script src="assets/js/frontend/add-to-cart.min.js" defer></script>
+    <script src="assets/js/frontend/woocommerce.min.js" defer></script>
 
     <link rel="canonical" href="index.html">
     <link rel='shortlink' href='index.html'>
@@ -148,7 +146,7 @@
         .breadcumb-wrapper {
             background-repeat: no-repeat;
             background-position: center center;
-            background-image: url('wp-content/uploads/2025/06/breadcumb-bg.jpg');
+            background-image: url('assets/img/breadcumb-bg.jpg');
             background-size: cover;
         }
     </style>
@@ -191,77 +189,83 @@
                                             <ul class="sub-menu">
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2520">
-                                                    <a href="#">Hakkımızda</a>
+                                                    <a href="hakkimizda.html">Hakkımızda</a>
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2642">
-                                                    <a href="#">Misyon & Vizyon</a>
+                                                    <a href="misyon-vizyon.html">Misyon & Vizyon</a>
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
-                                                    <a href="#">Sertifikalarımız</a>
+                                                    <a href="sertifikalarimiz.html">Sertifikalarımız</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2521">
-                                            <a href="#">Projelerimiz</a>
+                                            <a href="projelerimiz.html">Projelerimiz</a>
                                             <ul class="sub-menu">
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2522">
-                                                    <a href="#">Biten Projeler</a>
+                                                    <a href="biten-projeler.html">Biten Projeler</a>
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2586">
-                                                    <a href="#">Devam Eden Projeler</a>
+                                                    <a href="devam-eden-projeler.html">Devam Eden Projeler</a>
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
-                                                    <a href="#">Gelecek Projeler</a>
+                                                    <a href="gelecek-projeler.html">Gelecek Projeler</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2523">
-                                            <a href="#">Hizmetlerimiz</a>
+                                            <a href="hizmetlerimiz.html">Hizmetlerimiz</a>
                                             <ul class="sub-menu">
                                                 <li
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2611">
-                                                    <a href="#">Dekorasyon</a>
+                                                    <a href="hizmet-detay.html">Dekorasyon</a>
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2527">
-                                                    <a href="#">Konut</a>
+                                                    <a href="hizmet-detay.html">Konut</a>
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2524">
-                                                    <a href="#">Ticari Alan</a>
+                                                    <a href="hizmet-detay.html">Ticari Alan</a>
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2541">
-                                                    <a href="#">Projelendirme</a>
+                                                    <a href="hizmet-detay.html">Projelendirme</a>
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2526">
-                                                    <a href="#">Kat Karşılığı Arsa</a>
+                                                    <a href="hizmet-detay.html">Kat Karşılığı Arsa</a>
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2529">
-                                                    <a href="#">Kentsel Dönüşüm</a>
+                                                    <a href="hizmet-detay.html">Kentsel Dönüşüm</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2531">
-                                            <a href="#">Referanslarımız</a>
+                                            <a href="referanslarimiz.html">Referanslarımız</a>
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2531">
-                                            <a href="#">Blog</a>
+                                            <a href="blog.html">Blog</a>
+                                            <ul class="sub-menu">
+                                                <li
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2611">
+                                                    <a href="blog-detay.html">Blog Detay</a>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2530">
-                                            <a href="#">İletişim</a>
+                                            <a href="iletisim.html">İletişim</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -291,77 +295,84 @@
                                                             <ul class="sub-menu">
                                                                 <li
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2520">
-                                                                    <a href="#">Hakkımızda</a>
+                                                                    <a href="hakkimizda.html">Hakkımızda</a>
                                                                 </li>
                                                                 <li
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2642">
-                                                                    <a href="#">Misyon & Vizyon</a>
+                                                                    <a href="misyon-vizyon.html">Misyon & Vizyon</a>
                                                                 </li>
                                                                 <li
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
-                                                                    <a href="#">Sertifikalarımız</a>
+                                                                    <a href="sertifikalarimiz.html">Sertifikalarımız</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li
                                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2521">
-                                                            <a href="#">Projelerimiz</a>
+                                                            <a href="projelerimiz.html">Projelerimiz</a>
                                                             <ul class="sub-menu">
                                                                 <li
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2522">
-                                                                    <a href="#">Biten Projeler</a>
+                                                                    <a href="biten-projeler.html">Biten Projeler</a>
                                                                 </li>
                                                                 <li
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2586">
-                                                                    <a href="#">Devam Eden Projeler</a>
+                                                                    <a href="devam-eden-projeler.html">Devam Eden
+                                                                        Projeler</a>
                                                                 </li>
                                                                 <li
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
-                                                                    <a href="#">Gelecek Projeler</a>
+                                                                    <a href="gelecek-projeler.html">Gelecek Projeler</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li
                                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2523">
-                                                            <a href="#">Hizmetlerimiz</a>
+                                                            <a href="hizmetlerimiz.html">Hizmetlerimiz</a>
                                                             <ul class="sub-menu">
                                                                 <li
                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2611">
-                                                                    <a href="#">Dekorasyon</a>
+                                                                    <a href="hizmet-detay.html">Dekorasyon</a>
                                                                 </li>
                                                                 <li
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2527">
-                                                                    <a href="#">Konut</a>
+                                                                    <a href="hizmet-detay.html">Konut</a>
                                                                 </li>
                                                                 <li
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2524">
-                                                                    <a href="#">Ticari Alan</a>
+                                                                    <a href="hizmet-detay.html">Ticari Alan</a>
                                                                 </li>
                                                                 <li
                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2541">
-                                                                    <a href="#">Projelendirme</a>
+                                                                    <a href="hizmet-detay.html">Projelendirme<a>
                                                                 </li>
                                                                 <li
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2526">
-                                                                    <a href="#">Kat Karşılığı Arsa</a>
+                                                                    <a href="hizmet-detay.html">Kat Karşılığı Arsa</a>
                                                                 </li>
                                                                 <li
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2529">
-                                                                    <a href="#">Kentsel Dönüşüm</a>
+                                                                    <a href="hizmet-detay.html">Kentsel Dönüşüm</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li
                                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2531">
-                                                            <a href="#">Referanslarımız</a>
+                                                            <a href="referanslarimiz.html">Referanslarımız</a>
                                                         </li>
                                                         <li
                                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2531">
-                                                            <a href="#">Blog</a>
+                                                            <a href="blog.html">Blog</a>
+                                                            <ul class="sub-menu">
+                                                                <li
+                                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2611">
+                                                                    <a href="blog-detay.html">Blog Detay</a>
+                                                                </li>
+                                                            </ul>
                                                         </li>
                                                         <li
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2530">
-                                                            <a href="#">İletişim</a>
+                                                            <a href="iletisim.html">İletişim</a>
                                                         </li>
                                                     </ul>
                                                 </nav>
@@ -372,8 +383,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-auto d-none d-xxl-block">
-                                                <div class="header-button"><a href="#"
-                                                        class="th-btn style4 th-btn-icon">Randevu Al</a></div>
+                                                <div class="header-button"><a href="iletisim.html"
+                                                        class="th-btn style4 th-btn-icon">Bilgi Al</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -412,12 +423,13 @@
                                                         <div class="col-xl-10">
                                                             <div class="hero-style10 text-center">
                                                                 <span class="hero-sub-title text-theme"
-                                                                    data-ani="slideinup"
-                                                                    data-ani-delay="0.3s">Vizyonunuz,
+                                                                    data-ani="slideinup" data-ani-delay="0.3s"
+                                                                    style="font-size: 32px; color:#fff !important;">Vizyonunuz,
                                                                     Uzmanlığımız</span>
                                                                 <div class="btn-wrap justify-content-center"
                                                                     data-ani="slideinup" data-ani-delay="0.7s">
-                                                                    <a href="#" class="th-btn style4 th-btn-icon">Daha
+                                                                    <a href="sertifikalarimiz.html"
+                                                                        class="th-btn style4 th-btn-icon">Daha
                                                                         Fazla Keşfet</a>
                                                                 </div>
                                                             </div>
@@ -438,11 +450,12 @@
                                                         <div class="col-xl-10">
                                                             <div class="hero-style10 text-center">
                                                                 <span class="hero-sub-title text-theme"
-                                                                    data-ani="slideinup" data-ani-delay="0.3s">Güvenle
+                                                                    data-ani="slideinup" data-ani-delay="0.3s"
+                                                                    style="font-size: 32px; color:#fff !important;">Güvenle
                                                                     Yükselen Değer</span>
                                                                 <div class="btn-wrap justify-content-center"
                                                                     data-ani="slideinup" data-ani-delay="0.7s">
-                                                                    <a href="#"
+                                                                    <a href="hizmet-detay.html"
                                                                         class="th-btn style4 th-btn-icon">Keşfet</a>
                                                                 </div>
                                                             </div>
@@ -463,16 +476,13 @@
                                                         <div class="col-xl-10">
                                                             <div class="hero-style10 text-center">
                                                                 <span class="hero-sub-title text-theme"
-                                                                    data-ani="slideinup" data-ani-delay="0.3s">Kalite ve
+                                                                    data-ani="slideinup" data-ani-delay="0.3s"
+                                                                    style="font-size: 32px; color:#fff !important;">Kalite
+                                                                    ve
                                                                     Güven</span>
-                                                                <!-- <h1 class="hero-title text-white">
-                                                                    <span class="title1" data-ani="slideinup"
-                                                                        data-ani-delay="0.4s">Hayalleri İnşa Ediyor,
-                                                                        Gerçeği Yaratıyoruz</span>
-                                                                </h1>-->
                                                                 <div class="btn-wrap justify-content-center"
                                                                     data-ani="slideinup" data-ani-delay="0.7s">
-                                                                    <a href="#"
+                                                                    <a href="projelerimiz.html"
                                                                         class="th-btn style4 th-btn-icon">Projelerimiz</a>
                                                                 </div>
                                                             </div>
@@ -642,91 +652,103 @@
                                                 <div class="swiper-slide">
                                                     <div class="service-card style6">
                                                         <div class="service-card-icon"><img decoding="async"
-                                                                src="assets/img/service-icon3-1.svg"
+                                                                src="assets/img/service-icon3-1.png"
                                                                 alt="Konut İnşaatı"></div>
-                                                        <h3 class="box-title title"><a href="#">Dekorasyon</a></h3>
+                                                        <h3 class="box-title title"><a
+                                                                href="hizmet-detay.html">Dekorasyon</a></h3>
                                                         <p class="box-text desc">Villalar, apartmanlar ve site projeleri
                                                             için kaliteli konut inşaat hizmetleri.</p>
                                                         <div class="service-img img-shine"><img decoding="async"
-                                                                src="assets/img/3-1.png" alt="Konut Projesi"><a href="#"
-                                                                class="icon-btn"><img decoding="async"
-                                                                    src="assets/img/arrow-right.svg" alt="Detay"></a>
+                                                                src="assets/img/3-1.png" alt="Konut Projesi"><a
+                                                                href="hizmet-detay.html" class="icon-btn"><img
+                                                                    decoding="async" src="assets/img/arrow-right.svg"
+                                                                    alt="Detay"></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="service-card style6">
                                                         <div class="service-card-icon"><img decoding="async"
-                                                                src="assets/img/service-icon3-2.svg"
+                                                                src="assets/img/service-icon3-2.png"
                                                                 alt="Ticari Yapılar"></div>
-                                                        <h3 class="box-title title"><a href="#">Konut Inşaası</a></h3>
+                                                        <h3 class="box-title title"><a href="hizmet-detay.html">Konut
+                                                                Inşaası</a></h3>
                                                         <p class="box-text desc">Ofis binaları, alışveriş merkezleri ve
                                                             endüstriyel tesis inşaatları.</p>
                                                         <div class="service-img img-shine"><img decoding="async"
-                                                                src="assets/img/3-2.png" alt="Ticari Proje"><a href="#"
-                                                                class="icon-btn"><img decoding="async"
-                                                                    src="assets/img/arrow-right.svg" alt="Detay"></a>
+                                                                src="assets/img/3-2.png" alt="Ticari Proje"><a
+                                                                href="hizmet-detay.html" class="icon-btn"><img
+                                                                    decoding="async" src="assets/img/arrow-right.svg"
+                                                                    alt="Detay"></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="service-card style6">
                                                         <div class="service-card-icon"><img decoding="async"
-                                                                src="assets/img/service-icon3-3.svg"
+                                                                src="assets/img/service-icon3-3.png"
                                                                 alt="Mimari Tasarım"></div>
-                                                        <h3 class="box-title title"><a href="#">Ticari Alan</a></h3>
+                                                        <h3 class="box-title title"><a href="hizmet-detay.html">Ticari
+                                                                Alan</a></h3>
                                                         <p class="box-text desc">Modern ve fonksiyonel mimari tasarımlar
                                                             ile hayalinizdeki yapıyı oluşturuyoruz.</p>
                                                         <div class="service-img img-shine"><img decoding="async"
                                                                 src="assets/img/3-3.png" alt="Tasarım Projesi"><a
-                                                                href="#" class="icon-btn"><img decoding="async"
-                                                                    src="assets/img/arrow-right.svg" alt="Detay"></a>
+                                                                href="hizmet-detay.html" class="icon-btn"><img
+                                                                    decoding="async" src="assets/img/arrow-right.svg"
+                                                                    alt="Detay"></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="service-card style6">
                                                         <div class="service-card-icon"><img decoding="async"
-                                                                src="assets/img/service-icon3-1.svg"
+                                                                src="assets/img/service-icon3-1.png"
                                                                 alt="Konut İnşaatı"></div>
-                                                        <h3 class="box-title title"><a href="#">Projendirme</a></h3>
+                                                        <h3 class="box-title title"><a
+                                                                href="hizmet-detay.html">Projendirme</a></h3>
                                                         <p class="box-text desc">Villalar, apartmanlar ve site projeleri
                                                             için kaliteli konut inşaat hizmetleri.</p>
                                                         <div class="service-img img-shine"><img decoding="async"
-                                                                src="assets/img/3-1.png" alt="Konut Projesi"><a href="#"
-                                                                class="icon-btn"><img decoding="async"
-                                                                    src="assets/img/arrow-right.svg" alt="Detay"></a>
+                                                                src="assets/img/3-1.png" alt="Konut Projesi"><a
+                                                                href="hizmet-detay.html" class="icon-btn"><img
+                                                                    decoding="async" src="assets/img/arrow-right.svg"
+                                                                    alt="Detay"></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="service-card style6">
                                                         <div class="service-card-icon"><img decoding="async"
-                                                                src="assets/img/service-icon3-2.svg"
+                                                                src="assets/img/service-icon3-2.png"
                                                                 alt="Konut İnşaatı"></div>
-                                                        <h3 class="box-title title"><a href="#">Kat Karşılığı Daire</a>
+                                                        <h3 class="box-title title"><a href="hizmet-detay.html">Kat
+                                                                Karşılığı Daire</a>
                                                         </h3>
                                                         <p class="box-text desc">Villalar, apartmanlar ve site projeleri
                                                             için kaliteli konut inşaat hizmetleri.</p>
                                                         <div class="service-img img-shine"><img decoding="async"
-                                                                src="assets/img/3-2.png" alt="Konut Projesi"><a href="#"
-                                                                class="icon-btn"><img decoding="async"
-                                                                    src="assets/img/arrow-right.svg" alt="Detay"></a>
+                                                                src="assets/img/3-2.png" alt="Konut Projesi"><a
+                                                                href="hizmet-detay.html" class="icon-btn"><img
+                                                                    decoding="async" src="assets/img/arrow-right.svg"
+                                                                    alt="Detay"></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="service-card style6">
                                                         <div class="service-card-icon"><img decoding="async"
-                                                                src="assets/img/service-icon3-1.svg"
+                                                                src="assets/img/service-icon3-1.png"
                                                                 alt="Konut İnşaatı"></div>
-                                                        <h3 class="box-title title"><a href="#">Kentsel Dönüşüm</a></h3>
+                                                        <h3 class="box-title title"><a href="hizmet-detay.html">Kentsel
+                                                                Dönüşüm</a></h3>
                                                         <p class="box-text desc">Villalar, apartmanlar ve site projeleri
                                                             için kaliteli konut inşaat hizmetleri.</p>
                                                         <div class="service-img img-shine"><img decoding="async"
-                                                                src="assets/img/3-3.png" alt="Konut Projesi"><a href="#"
-                                                                class="icon-btn"><img decoding="async"
-                                                                    src="assets/img/arrow-right.svg" alt="Detay"></a>
+                                                                src="assets/img/3-3.png" alt="Konut Projesi"><a
+                                                                href="hizmet-detay.html" class="icon-btn"><img
+                                                                    decoding="async" src="assets/img/arrow-right.svg"
+                                                                    alt="Detay"></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -860,11 +882,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Şehir Hastanesi</a></h4>
+                                                                        href="proje-detay.html">Şehir Hastanesi</a></h4>
                                                                 <p class="property-card-subtitle">Sağlık Projesi</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -882,11 +904,12 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Rezidans Blokları</a></h4>
+                                                                        href="proje-detay.html">Rezidans Blokları</a>
+                                                                </h4>
                                                                 <p class="property-card-subtitle">Konut Projesi</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -904,11 +927,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Plaza İnşaatı</a></h4>
+                                                                        href="proje-detay.html">Plaza İnşaatı</a></h4>
                                                                 <p class="property-card-subtitle">Ticari Proje</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -926,11 +949,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Lojistik Depo</a></h4>
+                                                                        href="proje-detay.html">Lojistik Depo</a></h4>
                                                                 <p class="property-card-subtitle">Endüstriyel Proje</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -948,11 +971,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Site Projesi</a></h4>
+                                                                        href="proje-detay.html">Site Projesi</a></h4>
                                                                 <p class="property-card-subtitle">Konut Projesi</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -970,11 +993,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">AVM Genişletme</a></h4>
+                                                                        href="proje-detay.html">AVM Genişletme</a></h4>
                                                                 <p class="property-card-subtitle">Ticari Proje</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -992,11 +1015,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Özel Villa</a></h4>
+                                                                        href="proje-detay.html">Özel Villa</a></h4>
                                                                 <p class="property-card-subtitle">Konut Projesi</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1014,11 +1037,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Otel Projesi</a></h4>
+                                                                        href="proje-detay.html">Otel Projesi</a></h4>
                                                                 <p class="property-card-subtitle">Turizm Projesi</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1036,11 +1059,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Fabrika Binası</a></h4>
+                                                                        href="proje-detay.html">Fabrika Binası</a></h4>
                                                                 <p class="property-card-subtitle">Endüstriyel Proje</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1058,11 +1081,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Eğitim Kampüsü</a></h4>
+                                                                        href="proje-detay.html">Eğitim Kampüsü</a></h4>
                                                                 <p class="property-card-subtitle">Eğitim Projesi</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1080,11 +1103,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Ofis Katları</a></h4>
+                                                                        href="proje-detay.html">Ofis Katları</a></h4>
                                                                 <p class="property-card-subtitle">Ticari Proje</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1140,11 +1163,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Şehir Hastanesi</a></h4>
+                                                                        href="proje-detay.html">Şehir Hastanesi</a></h4>
                                                                 <p class="property-card-subtitle">Sağlık Projesi</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1162,11 +1185,12 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Rezidans Blokları</a></h4>
+                                                                        href="proje-detay.html">Rezidans Blokları</a>
+                                                                </h4>
                                                                 <p class="property-card-subtitle">Konut Projesi</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1184,11 +1208,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Plaza İnşaatı</a></h4>
+                                                                        href="proje-detay.html">Plaza İnşaatı</a></h4>
                                                                 <p class="property-card-subtitle">Ticari Proje</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1206,11 +1230,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Lojistik Depo</a></h4>
+                                                                        href="proje-detay.html">Lojistik Depo</a></h4>
                                                                 <p class="property-card-subtitle">Endüstriyel Proje</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1228,11 +1252,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Site Projesi</a></h4>
+                                                                        href="proje-detay.html">Site Projesi</a></h4>
                                                                 <p class="property-card-subtitle">Konut Projesi</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1250,11 +1274,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">AVM Genişletme</a></h4>
+                                                                        href="proje-detay.html">AVM Genişletme</a></h4>
                                                                 <p class="property-card-subtitle">Ticari Proje</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1272,11 +1296,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Özel Villa</a></h4>
+                                                                        href="proje-detay.html">Özel Villa</a></h4>
                                                                 <p class="property-card-subtitle">Konut Projesi</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1294,11 +1318,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Otel Projesi</a></h4>
+                                                                        href="proje-detay.html">Otel Projesi</a></h4>
                                                                 <p class="property-card-subtitle">Turizm Projesi</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1316,11 +1340,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Fabrika Binası</a></h4>
+                                                                        href="proje-detay.html">Fabrika Binası</a></h4>
                                                                 <p class="property-card-subtitle">Endüstriyel Proje</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1338,11 +1362,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Eğitim Kampüsü</a></h4>
+                                                                        href="proje-detay.html">Eğitim Kampüsü</a></h4>
                                                                 <p class="property-card-subtitle">Eğitim Projesi</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1360,11 +1384,11 @@
                                                         <div class="property-card-details">
                                                             <div class="media-left">
                                                                 <h4 class="property-card-title th_i_title"><a
-                                                                        href="#">Ofis Katları</a></h4>
+                                                                        href="proje-detay.html">Ofis Katları</a></h4>
                                                                 <p class="property-card-subtitle">Ticari Proje</p>
                                                             </div>
                                                             <div class="btn-wrap">
-                                                                <a href="#" class="icon-btn">
+                                                                <a href="proje-detay.html" class="icon-btn">
                                                                     <img decoding="async"
                                                                         src="assets/img/arrow-right.svg" alt="Detay">
                                                                 </a>
@@ -1676,12 +1700,12 @@
                                                                     <span><i class="far fa-calendar"></i> 25 Haziran
                                                                         2025</span>
                                                                 </div>
-                                                                <h3 class="blog-title"><a href="#">İnşaat
+                                                                <h3 class="blog-title"><a href="blog-detay.html">İnşaat
                                                                         Teknolojilerinde Yenilikler</a></h3>
                                                                 <p class="blog-excerpt">Yeni teknolojiler inşaat
                                                                     sektörünü nasıl dönüştürüyor?</p>
-                                                                <a href="#" class="read-more">Devamını Oku <i
-                                                                        class="fas fa-arrow-right"></i></a>
+                                                                <a href="blog-detay.html" class="read-more">Devamını Oku
+                                                                    <i class="fas fa-arrow-right"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1697,12 +1721,13 @@
                                                                     <span><i class="far fa-calendar"></i> 20 Haziran
                                                                         2025</span>
                                                                 </div>
-                                                                <h3 class="blog-title"><a href="#">Sürdürülebilir
+                                                                <h3 class="blog-title"><a
+                                                                        href="blog-detay.html">Sürdürülebilir
                                                                         Yapıların Önemi</a></h3>
                                                                 <p class="blog-excerpt">Çevre dostu binalar inşa ederken
                                                                     dikkat edilmesi gerekenler.</p>
-                                                                <a href="#" class="read-more">Devamını Oku <i
-                                                                        class="fas fa-arrow-right"></i></a>
+                                                                <a href="blog-detay.html" class="read-more">Devamını Oku
+                                                                    <i class="fas fa-arrow-right"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1718,12 +1743,13 @@
                                                                     <span><i class="far fa-calendar"></i> 15 Haziran
                                                                         2025</span>
                                                                 </div>
-                                                                <h3 class="blog-title"><a href="#">2025 Yılı Mimaride
+                                                                <h3 class="blog-title"><a href="blog-detay.html">2025
+                                                                        Yılı Mimaride
                                                                         Trendler</a></h3>
                                                                 <p class="blog-excerpt">Konut mimarisinde bu yıl öne
                                                                     çıkan tasarım trendleri.</p>
-                                                                <a href="#" class="read-more">Devamını Oku <i
-                                                                        class="fas fa-arrow-right"></i></a>
+                                                                <a href="blog-detay.html" class="read-more">Devamını Oku
+                                                                    <i class="fas fa-arrow-right"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1739,12 +1765,13 @@
                                                                     <span><i class="far fa-calendar"></i> 10 Haziran
                                                                         2025</span>
                                                                 </div>
-                                                                <h3 class="blog-title"><a href="#">Depreme Dayanıklı
+                                                                <h3 class="blog-title"><a href="blog-detay.html">Depreme
+                                                                        Dayanıklı
                                                                         Bina İnşası</a></h3>
                                                                 <p class="blog-excerpt">Deprem bölgelerinde güvenli bina
                                                                     inşaatı için ipuçları.</p>
-                                                                <a href="#" class="read-more">Devamını Oku <i
-                                                                        class="fas fa-arrow-right"></i></a>
+                                                                <a href="blog-detay.html" class="read-more">Devamını Oku
+                                                                    <i class="fas fa-arrow-right"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1782,11 +1809,11 @@
                                         <p class="about-text">1989 yılından bu yana inşaat sektöründe kalite ve güvenin
                                             adresi. Hayallerinizi gerçeğe dönüştürüyoruz.</p>
                                         <div class="th-social style5">
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                            <a href="#"><i class="fab fa-youtube"></i></a>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="https://www.x.com/"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1838,7 +1865,7 @@
                                         <ul id="menu-useful-link" class="menu style2">
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2550">
-                                                <a href="#">Ana Sayfa</a>
+                                                <a href="index.html">Ana Sayfa</a>
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2552">
@@ -1846,19 +1873,19 @@
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2553">
-                                                <a href="#">Hakkımızda</a>
+                                                <a href="hakkimizda.html">Hakkımızda</a>
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-826 current_page_item menu-item-2554">
-                                                <a href="#" aria-current="page">Projelerimiz</a>
+                                                <a href="projelerimiz.html" aria-current="page">Projelerimiz</a>
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2551">
-                                                <a href="#">Blog</a>
+                                                <a href="blog.html">Blog</a>
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2551">
-                                                <a href="#">İletişim</a>
+                                                <a href="iletisim.html">İletişim</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -1874,27 +1901,27 @@
                                         <ul id="menu-explore" class="menu style2">
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2560">
-                                                <a href="#">Dekorasyon</a>
+                                                <a href="hizmet-detay.html">Dekorasyon</a>
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2561">
-                                                <a href="#">Konut</a>
+                                                <a href="hizmet-detay.html">Konut</a>
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2558">
-                                                <a href="#">Ticari Alan</a>
+                                                <a href="hizmet-detay.html">Ticari Alan</a>
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2559">
-                                                <a href="#">Projelendirme</a>
+                                                <a href="hizmet-detay.html">Projelendirme</a>
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2555">
-                                                <a href="#">Kat Karşılığı</a>
+                                                <a href="hizmet-detay.html">Kat Karşılığı</a>
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
-                                                <a href="#">Kentsel Dönüşüm</a>
+                                                <a href="hizmet-detay.html">Kentsel Dönüşüm</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -1970,57 +1997,57 @@
         })();
     </script>
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const follower = document.querySelector('.cursor-follower');
-        
-        if (!follower) return;
-        
-        let mouseX = 0, mouseY = 0;
-        let posX = 0, posY = 0;
-        
-        // Mouse hareketini izle
-        document.addEventListener('mousemove', function(e) {
-            mouseX = e.clientX;
-            mouseY = e.clientY;
-        });
-        
-        // Animasyon fonksiyonu
-        function animate() {
-            // Yumuşak takip efekti
-            posX += (mouseX - posX) * 0.2;
-            posY += (mouseY - posY) * 0.2;
-            
-            follower.style.left = posX + 'px';
-            follower.style.top = posY + 'px';
-            
-            requestAnimationFrame(animate);
-        }
-        
-        animate();
-        
-        // Tıklama efekti
-        document.addEventListener('mousedown', function() {
-            follower.classList.add('active');
-        });
-        
-        document.addEventListener('mouseup', function() {
-            follower.classList.remove('active');
-        });
-        
-        // Link ve butonlar üzerinde hover efekti
-        const hoverElements = document.querySelectorAll('a, button, .th-btn, [role="button"], .swiper-slide, .service-card, .property-card7, .blog-card');
-        
-        hoverElements.forEach(el => {
-            el.addEventListener('mouseenter', function() {
-                follower.classList.add('hover');
+        document.addEventListener('DOMContentLoaded', function () {
+            const follower = document.querySelector('.cursor-follower');
+
+            if (!follower) return;
+
+            let mouseX = 0, mouseY = 0;
+            let posX = 0, posY = 0;
+
+            // Mouse hareketini izle
+            document.addEventListener('mousemove', function (e) {
+                mouseX = e.clientX;
+                mouseY = e.clientY;
             });
-            
-            el.addEventListener('mouseleave', function() {
-                follower.classList.remove('hover');
+
+            // Animasyon fonksiyonu
+            function animate() {
+                // Yumuşak takip efekti
+                posX += (mouseX - posX) * 0.2;
+                posY += (mouseY - posY) * 0.2;
+
+                follower.style.left = posX + 'px';
+                follower.style.top = posY + 'px';
+
+                requestAnimationFrame(animate);
+            }
+
+            animate();
+
+            // Tıklama efekti
+            document.addEventListener('mousedown', function () {
+                follower.classList.add('active');
+            });
+
+            document.addEventListener('mouseup', function () {
+                follower.classList.remove('active');
+            });
+
+            // Link ve butonlar üzerinde hover efekti
+            const hoverElements = document.querySelectorAll('a, button, .th-btn, [role="button"], .swiper-slide, .service-card, .property-card7, .blog-card');
+
+            hoverElements.forEach(el => {
+                el.addEventListener('mouseenter', function () {
+                    follower.classList.add('hover');
+                });
+
+                el.addEventListener('mouseleave', function () {
+                    follower.classList.remove('hover');
+                });
             });
         });
-    });
-</script>
+    </script>
 
     <!-- 1. CORE -->
     <script src="assets/js/jquery.min.js"></script>
